@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.css">
+  <title>Hostel Booking Project</title>
+  <style>
+  </style>
+</head>
+
+<body>
+  
+  <!-- header -->
+  <header>
+    <!-- navbar  -->
+   
+    <nav id="blackc" class="navbar navbar-expand-lg px-4">
+      <a class="navbar-brand" href="#"><img src="" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+        <span class="toggler-icon"><i class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNav">
+        <!-- login signup button -->
+          <button class = "btn11 sign-up"><li><a href="/login-signup final/signup/signup.html">Sign up</a></li></button>
+          <button class = "btn11 log-in"><li><a href="/login-signup final/login/login.html">Log in</a></li></button>
+  </div>
+        <ul class="navbar-nav mx-auto text-capitalize">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#store">store</a>
+          </li>
+        </ul>
+        <div class="nav-info-items d-none d-lg-flex ">
+          <!-- single info -->
+          <div class="nav-info1 align-items-center d-flex justify-content-between mx-lg-5">
+            <span class="info-icon mx-lg-3"><i class="fas fa-phone"></i></span>
+            <p class="mb-0">+91 123 456 789</p>
+          </div>
+          <!-- end of single info -->
+          <!-- single info -->
+          <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+            <span class="cart-info__icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
+            <p class="mb-0 text-capitalize"><span id="item-count">0 </span> items - Rs: <span class="item-total">00.00</span></p>
+          </div>
+          <!-- end of single info -->
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- banner  -->
+    <div class="container-fluid">
+      <div class="row max-height justify-content-center align-items-center">
+        <div class="col-10 mx-auto banner text-center">
+          <h1 class="text-capitalize">welcome to <strong class="banner-title ">SCOE Hostels </strong></h1>
+          <a href="#store" class="btn banner-link text-uppercase my-2">explore</a>
+
+        </div>
+        <div id="cart" class="cart">
+          
+          <div class="cart-total-container d-flex justify-content-around text-capitalize mt-5">
+            <h5>total</h5>
+            <h5> Rs:  <strong id="cart-total" class="font-weight-bold">00.00</strong> </h5>
+          </div>
+          <!--end cart total -->
+          <!-- cart buttons -->
+          <div class="cart-buttons-container mt-3 d-flex justify-content-between">
+            <a href="#" id="clear-cart" class="btn btn-outline-secondary btn-black text-uppercase">clear cart</a>
+            <a href="/registration.html" class="btn btn-outline-secondary text-uppercase btn-pink">checkout</a>
+          </div>
+          <!--end of  cart buttons -->
+          <!--  -->
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!--end of  banner  -->
+  </header>
+  <!-- header -->
+  <!-- about us -->
+  <section class="about py-5" id="about">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-10 mx-auto col-md-6 my-5">
+          <h1 class="text-capitalize">about <strong class="banner-title ">us</strong></h1>
+          <p class="my-4 text-muted w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquam voluptas
+            beatae vitae expedita consectetur nesciunt quia deserunt asperiores facere fuga dicta fugiat corrupti et omnis
+            porro at dolorum! Ad!</p>
+          <a href="#" class="btn btn-outline-secondary btn-black text-uppercase ">explore</a>
+
+        </div>
+        <div class="col-10 mx-auto col-md-6 align-self-center my-5">
+          <div class="about-img__container">
+            <img src="img/Sinhgad-College-of-Engineering-Pune-Campus.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- our services -->
+  <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service/ Food Runner</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-swimming-pool"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Refreshment</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-broom"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Housekeeping</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Room Security</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+            </div>
+        </section>
+
+  
+
+  <!-- end of about us -->
+
+  <!-- store -->
+  <section id="store" class="store py-5">
+    <div class="container">
+      <!-- section title -->
+      <div class="row">
+        <div class="col-10 mx-auto col-sm-6 text-center">
+          <h1 class="text-capitalize">our <strong class="banner-title ">store</strong></h1>
+        </div>
+      </div>
+      <!-- end of section title -->
+      <!--filter buttons -->
+      
+      <!-- search box -->
+      <div class="row">
+
+        <div class="col-10 mx-auto col-md-6">
+          <form>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend ">
+                <span class="input-group-text search-box" id="search-icon"><i class="fas fa-search"></i></span>
+              </div>
+              <input type="text" class="form-control" placeholder='item....' id="search-item">
+            </div>
+
+          </form>
+        </div>
+      </div>
+      <!--end of filter buttons -->
+      <!-- store  items-->
+      <div class="row" class="store-items" id="store-items">
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card ">
+            <div class="img-container">
+              <img src="img/a-view-of-the-mandakini-hostel.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Stanza House</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">6000</strong></h5>
+
+              </div>
+            </div>
+          </div>
+          <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card ">
+            <div class="img-container">
+              <img src="img/buildng-elevation-silver-land-residency-2bhk-flat-in-ravet-pune-592x444.png" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Purandar</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">6500</strong></h5>
+
+              </div>
+            </div>
+          </div>
+          <!-- end of card-->
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card ">
+            <div class="img-container">
+              <img src="img/22080s000000hhekb3A91_Z_550_412_R5_Q70_D.webp" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Raigad</h5>
+                <h5 class="store-item-value">& <strong id="store-item-price" class="font-weight-bold">4500</strong></h5>
+
+              </div>
+            </div>
+          </div>
+          <!-- end of card-->
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card ">
+            <div class="img-container">
+              <img src="img/DSC_1056.JPG" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Shivneri</h5>
+                <h5 class="store-item-value">& <strong id="store-item-price" class="font-weight-bold">5000</strong></h5>
+
+              </div>
+            </div>
+          </div>
+          <!-- end of card-->
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card ">
+            <div class="img-container">
+              <img src="img/it5a17c7.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Eternia House</h5>
+                <h5 class="store-item-value">& <strong id="store-item-price" class="font-weight-bold">7000</strong></h5>
+
+              </div>
+            </div>
+          </div>
+          <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+      
+
+      </div>
+  </section>
+  <!--end of store items -->
+
+  <!-- facilities -->
+  <section id="store" class="store py-5">
+    <div class="container">
+      <!-- section title -->
+      <div class="row">
+        <div class="col-10 mx-auto col-sm-6 text-center">
+          <h1 class="text-capitalize"> <strong class="banner-title ">Our facilities</strong></h1>
+        </div>
+      </div>
+      <!-- end of section title -->
+      <!--filter buttons -->
+      
+      <!-- search box -->
+      <div class="row">
+
+        <div class="col-10 mx-auto col-md-6">
+          <form>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend ">
+                <span class="input-group-text search-box" id="search-icon"><i class="fas fa-search"></i></span>
+              </div>
+              <input type="text" class="form-control" placeholder='item....' id="search-item">
+            </div>
+
+          </form>
+        </div>
+      </div>
+      <!--end of filter buttons -->
+      <!-- store  items-->
+      <div class="row" class="store-items" id="store-items">
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card ">
+            <div class="img-container">
+              <img src="img/society-security-services-500x500.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">24 X 7 Security </h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">1500</strong></h5>
+
+              </div>
+            </div>
+          </div>
+          <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card ">
+            <div class="img-container">
+              <img src="img/mporo-na-xrisimopoiiso-ena-klimatistiko-gia-ton.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">A/C facility</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">2500</strong></h5>
+
+              </div>
+            </div>
+          </div>
+          <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card ">
+            <div class="img-container">
+              <img src="img/2020-08-27.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Food Choice Available</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">2000</strong></h5>
+
+              </div>
+            </div>
+          </div>
+          <!-- end of card-->
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card ">
+            <div class="img-container">
+              <img src="img/internet-cafe-1-620x350.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Internet cafe</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">1500</strong></h5>
+
+              </div>
+            </div>
+          </div>
+          <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card ">
+            <div class="img-container">
+              <img src="img/house-keeping-1024x647.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Daily housekepping</h5>
+                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">1300</strong></h5>
+
+              </div>
+            </div>
+          </div>
+          <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+      
+
+      </div>
+  </section>
+  <!--end of facilities -->
+  <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                        <img src = "images/cus1.jpg" alt = "customer image">
+                        <span>Customer Name, Country</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                        <img src = "images/cus2.jpg" alt = "customer image">
+                        <span>Customer Name, Country</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Nice Place</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                        <img src = "images/cus3.jpg" alt = "customer image">
+                        <span>Customer Name, Country</span>
+                    </div>
+                    <!-- end of single customer -->
+                </div>
+            </div>
+        </section>
+        <!-- end of body content -->
+
+
+  <!-- modal-container -->
+  <div class="container-fluid ">
+    <div class="row lightbox-container align-items-center">
+      <div class="col-10 col-md-10 mx-auto text-right lightbox-holder">
+        <span class="lightbox-close"><i class="fas fa-window-close"></i></span>
+        <div class="lightbox-item"></div>
+        <span class="lightbox-control btnLeft"><i class="fas fa-caret-left"></i></span>
+        <span class="lightbox-control btnRight"><i class="fas fa-caret-right"></i></span>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- jquery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- script js -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
